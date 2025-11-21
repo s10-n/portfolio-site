@@ -5,6 +5,15 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
+a {
+    color:black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: dimgray;
+}
+
 #nav-name {
     margin-bottom: .33em;
     font-size:x-large;
