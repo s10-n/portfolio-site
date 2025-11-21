@@ -1,0 +1,36 @@
+body {
+    background-color: whitesmoke;
+    max-width: 1080px;
+    margin:auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#nav-name {
+    margin-bottom: .33em;
+    font-size:x-large;
+}
+
+.topnav {
+  border-bottom: 3px solid gainsboro;
+  display: flex;
+  align-items:baseline;
+  justify-content: space-between;
+}
+
+.topnav a {
+
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  color: dimgray;
+  text-decoration: underline;
+}
+
+.topnav a.active {
+    font-weight: bold;
+    text-decoration: none;
+}
