@@ -43,6 +43,19 @@ a:hover {
     text-decoration: none;
 }
 
+footer {
+    border-top: 3px solid gainsboro;
+    margin-top: 50px;
+    margin-bottom:10px;
+    display:flex;
+    justify-content: center;
+}
+
+footer > a {
+    margin:14px;
+    margin-top: 10px;
+}
+
 .disclaimer {
     font-style: italic;
     color: gray;
