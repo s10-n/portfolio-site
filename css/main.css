@@ -2,7 +2,8 @@ body {
     background-color: whitesmoke;
     max-width: 1080px;
     margin:auto;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:20px;
 }
 
 a {
