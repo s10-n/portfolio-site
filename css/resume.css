@@ -1,0 +1,12 @@
+.institution-name {
+    font-weight: bold;
+}
+
+#resume > h2 {
+    font-weight: normal;
+}
+
+.institution-date {
+    float:right;
+    font-weight: bold;
+}
