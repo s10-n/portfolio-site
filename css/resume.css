@@ -4,9 +4,31 @@
 
 #resume > h2 {
     font-weight: normal;
+    font-size: large;
 }
 
 .institution-date {
     float:right;
     font-weight: bold;
+}
+
+#resume > h1 {
+    font-size:x-large
+}
+
+#skills > h1 {
+    font-size:x-large
+}
+
+#skills > h2 {
+    font-weight: bold;
+    font-size: large;
+}
+
+#skills > ul {
+    column-count: 3;
+}
+
+.institution {
+    margin-bottom: 0;
 }
