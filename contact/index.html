@@ -3,6 +3,7 @@
     <head>
         <title>Sean Beaudoin - Portfolio</title>
         <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/contact.css">
         <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🗿</text></svg>">
     </head>
     <body>
@@ -16,7 +17,23 @@
             </nav>
         </header>
         <section>
-            <a href="https://www.linkedin.com/in/snbdn/">LinkedIn</a> <a href="https://github.com/s10-n">GitHub</a>
+            <h1>Contact</h1>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="2d2405f0-92fb-4356-8ef2-8d7de496f6d9">
+
+
+                <label for="name">Name</label>
+                <input id="name" type="text" name="name" required>
+
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" required>
+               
+                <label for="message">Message</label>
+                <textarea name="message" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+<!--             <a href="https://www.linkedin.com/in/snbdn/">LinkedIn</a> <a href="https://github.com/s10-n">GitHub</a> -->
         </section>
     </body>
 </html>

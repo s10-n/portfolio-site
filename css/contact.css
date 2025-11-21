@@ -1,0 +1,55 @@
+input {
+  width: 40%;
+  padding: 8px;
+  border: gainsboro 1px solid;
+  outline:none;
+  font-size: medium;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+input:focus {
+  border: 1px solid gray;
+}
+
+textarea {
+    width: 40%;
+    padding: 8px;
+    resize: none;
+    height: 200px;
+    border: gainsboro 1px solid;
+    outline:none;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+textarea:focus {
+  border: 1px solid gray;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+button {
+    display: block;
+    background-color: gainsboro;
+    border: gainsboro 1px solid;
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: medium;
+    outline: none;
+}
+
+button:hover {
+    background-color: lightgrey;
+}
+
+button:focus {
+    border: gray 1px solid;
+}
